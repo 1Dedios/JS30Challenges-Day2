@@ -44,4 +44,8 @@ html {
    background: black;
    position: absolute;
    top: 50%;
+   transform-origin: 100%; 
+   transform: rotate(90deg); /* so the hand can start it's rotation at the end not the middle */
+   transition: all 0.05s;
+   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); /* This is how intermediate values are calculated for CSS properties being affected by a transition effect. This is an author-defined cubic-Bezier curve (p1, p2, p3, p4), where the p1 and p3 values must be in the range of 0-1.*/ 
   }
