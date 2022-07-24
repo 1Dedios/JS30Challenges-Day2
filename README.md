@@ -9,4 +9,4 @@ Original challenge can be found here: https://courses.wesbos.com/account/access/
 
 <h2> Deployed Site Link </h2>
 
-https://1dedios.github.io/JS30Challenges-Day2/
+Github Pages - https://1dedios.github.io/JS30Challenges-Day2/
