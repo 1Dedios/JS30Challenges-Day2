@@ -17,17 +17,13 @@ function setDate() {
     const hourDegrees = ((hour / 12) * 360) + 90;
     hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 
+}
 
-    if (secondsDegrees == 360) {
-        seconds.classList.remove('.hand.transition')
-    } else {
-        return;
-    }
-
-
-
+function removeTransform(e) {
 
 }
+
+
 
 setInterval(setDate, 1000);
 
